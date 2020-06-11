@@ -2472,3 +2472,24 @@ footer .hashtag {
     display: block;
   }
 }
+
+.navbar-fixed-right {
+  /* width: 140px; */
+  position: fixed;
+  right: 0px;
+  top: 200px;
+  border-radius: 0;
+  /* height: 100%; */
+  background-color: white;
+  padding: 0px;
+}
+
+.navbar-fixed-right .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 30px;
+}
+
+.navbar-fixed-right + .container {
+  padding-left: 160px;
+}
+
