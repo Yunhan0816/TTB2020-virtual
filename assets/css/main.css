@@ -503,13 +503,15 @@ header {
 }
 
 .stats-container {
-  background-color: #000C54;
+  /* background-color: #000C54; */
+  background-color: white;
   padding: 5em 5%;
 }
 
 .stats-container h1 {
   display: inline-block;
-  color: #FFF;
+  /* color: #FFF; */
+  color: #000C54; 
   font-weight: 600;
   margin: 0;
 }
@@ -2491,5 +2493,122 @@ footer .hashtag {
 
 .navbar-fixed-right + .container {
   padding-left: 160px;
+}
+
+.project-showcase-container {
+  background-color: #000C54;
+  margin: 3em 0;
+}
+
+.project-showcase-container h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.project-showcase-container div {
+  padding: 0;
+}
+
+.project-showcase-container div .about {
+  padding: 4em 7.5%;
+}
+
+.project-showcase-container div .about h1 {
+  color: white;
+  display: inline-block;
+}
+
+.project-showcase-container div .about p {
+  font-weight: 500;
+  margin: 1em 0;
+  font-size: 1.25em;
+}
+
+.project-showcase-container p {
+  color: white;;
+  font-weight: 500;
+}
+
+.project-showcase-container a {
+  color: white;
+  font-weight: 600;
+}
+
+.project-showcase-container .bar-sm {
+  width: 3em;
+  height: .35em;
+  background-color: #0025F8;
+  margin: 1em 0 1.5em 0;
+}
+
+.project-showcase-container .carousel-control-prev {
+  background: transparent;
+}
+
+.project-showcase-container .carousel-control-prev-icon,
+.project-showcase-container .carousel-control-next-icon {
+  -webkit-filter: invert(25%);
+          filter: invert(25%);
+}
+
+.project-showcase-container .carousel {
+  width: 100%;
+}
+
+.project-showcase-container .carousel .carousel-inner,
+.project-showcase-container .carousel .carousel-item {
+  height: 100%;
+}
+
+.project-showcase-container .carousel img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.project-showcase-container .carousel li {
+  height: 1em;
+  width: 1em;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.testimonial-container {
+  background-color: #000C54;
+  /* background-color: white; */
+  padding: 5em 5%;
+}
+
+.testimonial-container h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+  color: white;
+}
+
+.testimonial-container .bar-sm {
+  width: 3em;
+  height: .35em;
+  background-color: #0025F8;
+  margin: 1em 0 1.5em 0;
+}
+
+.sponsors-container {
+  /* background-color: #000C54; */
+  background-color: white;
+  padding: 5em 5%;
+}
+
+.sponsors-container h1 {
+  font-weight: 600;
+  margin-bottom: 0;
+  /* color: white; */
+  color: #000C54;
+}
+
+.sponsors-container .bar-sm {
+  width: 3em;
+  height: .35em;
+  background-color: #0025F8;
+  margin: 1em 0 1.5em 0;
 }
 
