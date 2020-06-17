@@ -2,6 +2,16 @@
 
 ## Contribute Guide
 
+### Gatsby
+
+#### Some useful links:
+
+1. Set up your environment: https://www.gatsbyjs.org/tutorial/part-zero/
+2. Creating layout components: https://www.gatsbyjs.org/tutorial/part-three/#creating-layout-components
+3. Carousel in React: https://www.npmjs.com/package/react-responsive-carousel
+4. Optimized images in Gatsby (So our website will be loaded super fast!): https://www.gatsbyjs.org/packages/gatsby-image/
+5. GraphQL in Gatsby: https://www.gatsbyjs.org/docs/graphql-api/
+
 ### Before working:
 
 1. pull from master
@@ -23,4 +33,4 @@
 2. git push etc -- push your stuff first
 3. `gatsby build` -- this builds into the public folder
 4. `cd public` -- this will direct you to gh-pages
-5. git add -A, git commit -m "im awesome or something like that", git push etc -- push your changes
+5. git add -A, git commit -m "your commit messages", git push etc -- push your changes
