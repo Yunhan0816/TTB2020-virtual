@@ -1,0 +1,35 @@
+$pink: #fd7361;
+$purple: #808cfb;
+$blue: #52d9f6;
+$red: #e73f33;
+$dark-blue: #000c54;
+$ocean-blue: #0025f8;
+$light-purple: rgba(128, 140, 251, 0.2);
+$button-radius: 100px;
+$green: #0aa895;
+$gray: #c4c4c4;
+$gray2: #6b7373;
+
+.about-container {
+  padding: 0 2em;
+  height: 40em;
+  height: 100%;
+  width: 100%;
+
+  h2 {
+    color: #808cfb;
+    font-weight: 600;
+    margin: 1.5em 0;
+    font-size: 2.25em;
+
+    span {
+      color: #fd7361;
+    }
+  }
+
+  p {
+    color: #808cfb;
+    font-weight: 500;
+    font-size: 1.25em;
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Home",
+    "path": "/"
+  },
+  {
+    "name": "Attend",
+    "path": "/attend"
+  },
+  {
+    "name": "Sponsor",
+    "path": "/sponsor"
+  },
+  {
+    "name": "FAQ",
+    "path": "/FAQ"
+  },
+  {
+    "name": "About Us",
+    "path": "/about"
+  }
+]
